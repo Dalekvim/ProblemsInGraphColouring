@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Python Programs.iml" filepath="$PROJECT_DIR$/.idea/Python Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Graph Colouring Programs/.idea/Graph Colouring Programs.iml" filepath="$PROJECT_DIR$/../Graph Colouring Programs/.idea/Graph Colouring Programs.iml" />
     </modules>
   </component>
 </project>

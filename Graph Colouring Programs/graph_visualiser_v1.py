@@ -18,7 +18,6 @@ def draw(graph_name, num_nodes):
         nx.draw(nx.star_graph(int(num_nodes)))
     if graph_name == "wheel":
         nx.draw(nx.wheel_graph(int(num_nodes)))
-    
 
 
 def draw_bipartite(graph_name, m, n):
@@ -38,14 +37,11 @@ while True:
     if instruction == "help":
         print("""This graph visualiser is implemented using networkx.
 Instructions should be entered in the following order:
-
 command graph_name [graph_type] num_nodes [num_nodes_bipartite]
-
 More information can be found in the short documentation I've placed in the same directory.
 """)
 
     command = instruction.split(" ")
-
 
     if command[0] == "draw":
         # Format:
@@ -55,6 +51,6 @@ More information can be found in the short documentation I've placed in the same
         else:
             # Format:
             # command[1] = graph name E.g. complete, cycle, path
-            # command[2] = # verticies E.g. 1, 2, 3,...
+            # command[2] = # vertices E.g. 1, 2, 3,...
             draw(command[1], command[2])
         plt.show()
