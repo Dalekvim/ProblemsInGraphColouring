@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Graph Visualiser
 By Vimal Vinod
@@ -28,3 +29,35 @@ def main():
 
 while True:
     main()
+=======
+"""
+Graph Visualiser
+By Vimal Vinod
+"""
+
+from command.basic import Graph
+
+print("""
+Welcome to Graph Visualiser Version 2.0.0!
+Type "help" to know more about how this works.
+""")
+
+
+def main():
+    instruction = input(">>> ").lower().split(" ")
+
+    command = instruction[0]
+    details = instruction[1:]
+
+    graph = Graph(details)
+    commands = ["draw", "colour", "save"]
+
+    if command in commands:
+        exec(f"graph.{command}()")
+    else:
+        print(f'"{command}" is not a valid command.')
+
+
+while True:
+    main()
+>>>>>>> 3decaf71c32cd26b1f5e93a12ea650e221afc066

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
@@ -5,4 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Python Programs.iml" filepath="$PROJECT_DIR$/.idea/Python Programs.iml" />
     </modules>
   </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python Programs.iml" filepath="$PROJECT_DIR$/.idea/Python Programs.iml" />
+    </modules>
+  </component>
+>>>>>>> 3decaf71c32cd26b1f5e93a12ea650e221afc066
 </project>

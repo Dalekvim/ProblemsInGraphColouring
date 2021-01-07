@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
@@ -7,4 +8,15 @@
     <orderEntry type="jdk" jdkName="Python 3.9 (Graph Colouring Programs)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.virtualenv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.9 (Graph Colouring Programs)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+>>>>>>> 3decaf71c32cd26b1f5e93a12ea650e221afc066
 </module>
